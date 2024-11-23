@@ -2,4 +2,4 @@
 
 declare const global: {
     basename: string
-}
+};

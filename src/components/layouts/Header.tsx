@@ -21,7 +21,7 @@ import { Logo } from "../logo";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 
 export function Header() {
-    const [open, setOpen] = useState(false)
+    const [open, setOpen] = useState(false);
     const location = useLocation();
 
     return (
@@ -208,5 +208,5 @@ export function Header() {
                 </div>
             </div>
         </header>
-    )
+    );
 }

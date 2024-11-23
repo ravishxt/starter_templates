@@ -1,4 +1,4 @@
-import { Icons } from "@/components/icons"
+import { Icons } from "@/components/icons";
 
 interface NavItem {
     title: string
@@ -36,6 +36,6 @@ export const mainMenu: NavItemWithChildren[] = [
         title: 'Empty',
         to: 'empty',
     },
-]
+];
 
-export const sideMenu: NavItemWithChildren[] = []
+export const sideMenu: NavItemWithChildren[] = [];

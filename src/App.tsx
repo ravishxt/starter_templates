@@ -7,5 +7,5 @@ export default function App() {
         <ThemeProvider>
             <RouterProvider router={router} />
         </ThemeProvider>
-    )
+    );
 }

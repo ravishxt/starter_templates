@@ -20,4 +20,4 @@ export const appConfig: AppConfig = {
         name: "hayyi",
         url: "https://github.com/hayyi2/",
     }
-}
+};

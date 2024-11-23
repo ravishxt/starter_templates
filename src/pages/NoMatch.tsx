@@ -11,5 +11,5 @@ export default function NoMatch() {
                 <NavLink to="/" className={buttonVariants()}>Back to Home</NavLink>
             </div>
         </div>
-    )
+    );
 }

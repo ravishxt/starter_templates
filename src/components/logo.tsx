@@ -7,5 +7,5 @@ export function Logo() {
             <Icons.logo className="h-6 w-6" />
             <span className="font-bold">{appConfig.name}</span>
         </>
-    )
+    );
 }

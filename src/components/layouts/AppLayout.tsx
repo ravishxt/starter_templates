@@ -15,5 +15,5 @@ export function Applayout() {
                 <Footer />
             </div>
         </>
-    )
+    );
 }

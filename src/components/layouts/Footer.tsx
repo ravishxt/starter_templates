@@ -9,5 +9,5 @@ export function Footer() {
                 <ModeToggle />
             </div>
         </footer>
-    )
+    );
 }

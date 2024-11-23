@@ -1,11 +1,11 @@
-import path from "path"
-import react from "@vitejs/plugin-react"
-import { defineConfig } from "vite"
+import path from "path";
+import react from "@vitejs/plugin-react";
+import { defineConfig } from "vite";
 
-const basenameProd = '/'
+const basenameProd = '/';
 
 export default defineConfig(({ command }) => {
-  const isProd = command === 'build'
+  const isProd = command === 'build';
 
   return {
     base: isProd ? basenameProd : '/',
@@ -23,5 +23,5 @@ export default defineConfig(({ command }) => {
         basename: isProd ? basenameProd : '',
       },
     },
-  }
-})
+  };
+});

@@ -14,5 +14,5 @@ export default function Sample() {
                 </CardHeader>
             </Card>
         </>
-    )
+    );
 }

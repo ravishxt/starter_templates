@@ -15,6 +15,7 @@ export default [
     rules: {
       semi: "error",
       "prefer-const": "error",
+      "react/prop-types": "off",
       "react/react-in-jsx-scope": "off",
     }
   },
